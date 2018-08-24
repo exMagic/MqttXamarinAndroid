@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="10"
+		android:minWidth="25px"
+		android:minHeight="25px">
+	</LinearLayout>
+	<Button
+		android:id="@+id/bttConnect"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="CONNECT TO BROKER" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="10">
+		<EditText
+			android:id="@+id/edtTopic"
+			android:layout_weight="5"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="Topic" />
+		<Spinner
+			android:id="@+id/spnQOS"
+			android:layout_weight="5"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/bttSubTopic"
+		android:text="SUBSCRIBE/PUBLISH TOPIC" />
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/edtMessage"
+		android:hint="message to publish" />
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/bttPublishMes"
+		android:text="PUBLISH MESSAGE" />
+	<TextView
+		android:textColor="@android:color/holo_red_dark"
+		android:paddingTop="20dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/result" />
+</LinearLayout>
