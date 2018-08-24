@@ -32,7 +32,7 @@ namespace MqttXamarinAndroid
 			adapter.SetDropDownViewResource (Android.Resource.Layout.SimpleSpinnerDropDownItem);
 			spnQOS.Adapter = adapter;
 
-            string topic = "a";
+            string topic = "b";
             ConnectServer();
             mqttClient.Subscribe(new string[] { topic }, new byte[] { (byte)spnQOS.SelectedItemPosition });
 
