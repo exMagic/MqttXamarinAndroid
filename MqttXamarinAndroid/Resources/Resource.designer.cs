@@ -869,14 +869,8 @@ namespace MqttXamarinAndroid
 			// aapt resource value: 0x7f0a0016
 			public const int beginning = 2131361814;
 			
-			// aapt resource value: 0x7f0a003c
-			public const int bttConnect = 2131361852;
-			
-			// aapt resource value: 0x7f0a0041
-			public const int bttPublishMes = 2131361857;
-			
-			// aapt resource value: 0x7f0a003f
-			public const int bttSubTopic = 2131361855;
+			// aapt resource value: 0x7f0a003e
+			public const int bttPublishMes = 2131361854;
 			
 			// aapt resource value: 0x7f0a002d
 			public const int checkbox = 2131361837;
@@ -899,11 +893,8 @@ namespace MqttXamarinAndroid
 			// aapt resource value: 0x7f0a0030
 			public const int edit_query = 2131361840;
 			
-			// aapt resource value: 0x7f0a0040
-			public const int edtMessage = 2131361856;
-			
 			// aapt resource value: 0x7f0a003d
-			public const int edtTopic = 2131361853;
+			public const int edtMessage = 2131361853;
 			
 			// aapt resource value: 0x7f0a0017
 			public const int end = 2131361815;
@@ -956,8 +947,8 @@ namespace MqttXamarinAndroid
 			// aapt resource value: 0x7f0a002f
 			public const int radio = 2131361839;
 			
-			// aapt resource value: 0x7f0a0042
-			public const int result = 2131361858;
+			// aapt resource value: 0x7f0a003f
+			public const int result = 2131361855;
 			
 			// aapt resource value: 0x7f0a0032
 			public const int search_badge = 2131361842;
@@ -1004,8 +995,8 @@ namespace MqttXamarinAndroid
 			// aapt resource value: 0x7f0a001e
 			public const int split_action_bar = 2131361822;
 			
-			// aapt resource value: 0x7f0a003e
-			public const int spnQOS = 2131361854;
+			// aapt resource value: 0x7f0a003c
+			public const int spnQOS = 2131361852;
 			
 			// aapt resource value: 0x7f0a0039
 			public const int submit_area = 2131361849;

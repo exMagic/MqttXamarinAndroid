@@ -8,37 +8,13 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:orientation="horizontal"
-		android:weightSum="10"
-		android:minWidth="25px"
-		android:minHeight="25px">
-	</LinearLayout>
-	<Button
-		android:id="@+id/bttConnect"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:text="CONNECT TO BROKER" />
-	<LinearLayout
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:orientation="horizontal"
 		android:weightSum="10">
-		<EditText
-			android:id="@+id/edtTopic"
-			android:layout_weight="5"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:hint="Topic" />
 		<Spinner
 			android:id="@+id/spnQOS"
 			android:layout_weight="5"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content" />
 	</LinearLayout>
-	<Button
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:id="@+id/bttSubTopic"
-		android:text="SUBSCRIBE/PUBLISH TOPIC" />
 	<EditText
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
